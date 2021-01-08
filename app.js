@@ -78,3 +78,7 @@ expressApp.get('/', (req, res) => {
 expressApp.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+setInterval(function () {
+  window.location.reload(true)  
+}, 5000)
