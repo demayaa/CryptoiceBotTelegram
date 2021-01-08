@@ -13,7 +13,7 @@ const markup = extra.markdown()
 
 const BOT_TOKEN = process.env.BOT_TOKEN || '1525516398:AAEdB8zl-m8KfYZkTKKIe5JDsIhbZV4lEsY';
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL || 'https://your-heroku-app.herokuapp.com';
+const URL = process.env.URL || 'https://cryptoice.herokuapp.com/';
 
 
 const bot = new Telegraf(BOT_TOKEN)
