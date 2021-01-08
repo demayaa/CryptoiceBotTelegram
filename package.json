@@ -1,0 +1,20 @@
+{
+  "name": "botTele",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coingecko/cryptoformat": "^0.4.2",
+    "coingecko-api": "^1.0.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "telegraf": "^3.38.0"
+  }
+}
