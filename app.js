@@ -71,7 +71,7 @@ bot.hears(/\/market (.+)/, (ctx) => {
 
 bot.command('/p', ({ reply }) => reply('Command of Price Coin\nexp: `/p btc`', markup))
 bot.command('/market', ({reply}) => reply('Command of Call Coin Market\nexp: `/Market btc`'));
-bot.launch()
+
 expressApp.get('/', (req, res) => {
   res.send('Hello World!');
 });
@@ -80,5 +80,5 @@ expressApp.listen(PORT, () => {
 });
 
 setInterval(function () {
-  window.location.reload(true)  
+  bot.launch()
 }, 5000)
